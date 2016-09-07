@@ -1,0 +1,14 @@
+This file provides specific information on how to use the deletebook python script to delete books from the database
+
+````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+The only thing you need to do is to edit the deletelist.csv file, just add all the book IDs for the books you are getting 
+rid of in the database
+NOTE: Most important thing is the book ID, when the ID is single digit, there has to be a 0(zero) before it. Such as A-07 or 
+it will NOT work. 
+
+After you are done with editting the CSV file, just run the python code, then the book records will be erased from the db. 
+
+$ python deletebooks.py
+
+
+
